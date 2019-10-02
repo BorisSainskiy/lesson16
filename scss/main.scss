@@ -86,3 +86,26 @@
 }
 
 
+@media (max-width: 1200px) {
+    #container {
+       display: flex;
+       flex-direction: column;
+       height: 1630px;
+       justify-content: flex-start;
+    }   
+
+    .block {
+        height: 1000px;
+    }
+
+    .block:not(first-child) {
+        margin-top: 100px;
+    }
+
+    .block:first-child {
+        margin-top: 20px;
+    }
+
+}
+
+
